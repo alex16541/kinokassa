@@ -1,0 +1,68 @@
+.Select {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-family: var(--font-family-sf-pro);
+
+    label{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .content{
+        text-align: start;
+    }
+
+    .placeholder{
+        color: #999FA6;
+        font-weight: 400;
+    }
+
+    .arrow{
+        width: 20px;
+        height: 20px;
+        color: #999FA6;
+    }
+
+    .button{
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+        line-height: 20px;
+        border: 1px solid #E1E3E6;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &:focus{
+            border-color: var(--contrast-color);
+
+            .arrow{
+                transform: rotate(180deg);
+            }
+        }
+    }
+
+
+}    
+
+.overlay{
+    background-color: var(--secondary-bg-color);
+    border-radius: 8px;
+    border: 1px solid var(--white, #FFF);
+    box-shadow: 0px 10px 22px -4px rgba(27, 31, 35, 0.12);
+    padding: 8px;
+    position: absolute;
+
+}
+
+.option{
+    display: block;
+    padding: 12px;
+    font-size: 14px;
+    font-family: var(--font-family-sf-pro);
+    line-height: 20px;
+    width: 100%;
+    text-align: start;
+}

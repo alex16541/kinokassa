@@ -1,0 +1,17 @@
+.QuestionsPage {
+}
+
+.header{
+    margin-bottom: 24px;
+}
+
+.title{
+    font: var(--font-xl);
+    font-weight: 600;
+}
+
+.questions{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}

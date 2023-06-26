@@ -1,0 +1,12 @@
+.Footer {
+    background-color: var(--contrast-bg-color);
+    height: var(--footer-height);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px;
+}
+
+.link{
+    color: var(--secondary-color);
+}

@@ -1,0 +1,40 @@
+@import "reset";
+@import "variables/global.scss";
+
+body {
+    font: var(--font-m);
+    color: var(--primary-color);
+    background-color: var(--primary-bg-color);
+    font-family: var(--font-family-main);
+}
+
+a {
+    color: var(--primary-color);
+}
+
+.app{
+    display: grid;
+    grid-template-rows: 1fr auto;
+    padding-top: var(--header-height);
+    min-height: 100vh;
+}
+
+.page{
+    padding: 24px 32px;
+}
+
+.selectContainer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: var(--select-z-index);
+
+    pointer-events: none;
+    * > * {
+        pointer-events: all;
+    }
+}

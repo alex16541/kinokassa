@@ -1,0 +1,24 @@
+.SearchPage {
+    height: 100%;
+    display: flex;
+    gap: 24px;
+}
+
+.films{
+}
+
+.loader{
+    height: max-content;
+    font-weight: 600;
+}
+
+.sidebar{
+
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    flex: 1;
+}

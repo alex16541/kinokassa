@@ -1,0 +1,35 @@
+div.Accordion {
+    padding: 0;
+    overflow: hidden;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 24px;
+    font: var(--font-l);
+    font-weight: 600;
+}
+
+.content{
+    display: none;
+    padding: 0px 24px 24px 24px;
+    font: var(--font-m);
+}
+
+.arrow{
+    width: 32px;
+    height: 32px;
+}
+
+.open{
+    .content{
+        display: block;
+    }
+    .arrow{
+        transform: rotate(180deg);
+    }
+}
+

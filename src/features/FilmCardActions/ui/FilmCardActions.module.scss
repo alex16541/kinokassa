@@ -1,0 +1,11 @@
+.FilmCardActions {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.delete{
+    width:20px;
+    height:20px;
+    color: var(--contrast-bg-color);
+    padding: 0;
+}

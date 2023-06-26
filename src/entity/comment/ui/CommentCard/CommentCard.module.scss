@@ -1,0 +1,44 @@
+.CommentCard {
+    display: flex;
+    gap: 32px;
+
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 20px;
+        line-height: 32px;
+        width: 100%;
+    }
+    
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    flex: 1;
+
+    p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+.img{
+    width: 100px;
+    min-width: 100px;
+    height: 100px;
+    background-color: #E0E0E0;
+    border-radius: 8px;
+    color: #828282;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    .placeholder{
+        width: 32px;
+        height: 32px;
+    }
+}

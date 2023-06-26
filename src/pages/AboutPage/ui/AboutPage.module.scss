@@ -1,0 +1,10 @@
+.AboutPage {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;   
+}
+
+.title{
+    font: var(--font-xl);
+    font-weight: 600;
+}

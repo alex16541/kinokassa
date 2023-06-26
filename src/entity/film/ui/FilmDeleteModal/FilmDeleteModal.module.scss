@@ -1,0 +1,32 @@
+.FilmDeleteModal {
+
+}
+.modal{
+    header{
+        font-size: 20px;
+        line-height: 20px;
+        margin-bottom: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    p{
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 24px;
+    }
+
+    .actions{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .close{
+        color: var(--contrast-bg-color);
+        width: 16px;
+        height: 16px;
+        padding: 0;
+    }
+}
